@@ -12,7 +12,7 @@ motor
 pillow==9.5.0
 psutil
 httpx==0.27.2
-pytgcalls==4.0.0b1
+py-tgcalls==0.9.7
 pykeyboard
 pyrofork
 python-dotenv
