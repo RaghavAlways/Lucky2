@@ -61,11 +61,13 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
-
 # Get your pyrogram v2 session from @king_string_session_bot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQG50WYAa8MpClBGQfbXglJuVaztO4xIl22tGqo-VmDUv-RhvbtqohtgkJCOmE9Rknf8kluKwCsFzmpl2yOnpotF-lD_Vjh5Nz2-WtLAeaDGxRsazDWBt-30Ryoyh9OOF6yynbAMacKOHmrqLGyv0m8eqaVVz-6MswyIFx8C2FcjwXEegwnLtOuj6C9hj0QT2V3a5-u7iqLzDNMvyl_Ya3hOCf1cRoz-09owt23iIjnRjPUG2gtuclprmjLdujzW-dZe5R4ujWCcvp0CD7-MjnxA-647MidJxnHFLPF_bTle2M2WXU_bGZ3NWiMgigi1RotQ9RnCJ5qeBTHtU6CN8WeCmRvtLAAAAAHaLy2nAA")
+STRING1 = getenv("STRING_SESSION", None)
+STRING2 = getenv("STRING_SESSION2", None)
+STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
+
 
 
 BANNED_USERS = filters.user()
